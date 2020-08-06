@@ -1,0 +1,25 @@
+.main-containers{
+    width: 80vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem 0;
+}
+
+.list-items {
+  display: flex;
+  overflow-x: hidden;
+}
+
+.pages{
+    padding:8px 16px ;
+    list-style-type: none;
+    border: 1px solid green;
+    
+
+}
+.active{
+    background-color: yellow;
+    border-radius: 5px;
+}

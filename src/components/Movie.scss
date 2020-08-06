@@ -1,0 +1,24 @@
+.movie-container{
+    background: grey;
+    border-radius: 0.8rem;
+    box-shadow: 5px 10px 8px 10px #888888;
+    margin: 1rem 0;
+    img{
+        width: 100%;
+        border-top-left-radius: 0.7rem;
+        border-top-right-radius: 0.7rem;
+        display: block;
+        height: 40%
+    }
+}
+.movie-info{
+    padding: 1rem 0.5rem;
+    text-align: center;
+    a{
+        text-decoration: none;
+        color: black;
+        &:hover{
+            color: #fff;
+        }
+    }
+}

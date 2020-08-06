@@ -1,0 +1,18 @@
+.vrishav{
+    background: green;
+}
+.container{
+    max-width: 1030px;
+    margin: 0 auto;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+}
+.navbar{
+    text-transform: capitalize;
+    font-weight:bold;
+    font-family: cursive;
+}
+

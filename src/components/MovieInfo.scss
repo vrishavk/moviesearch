@@ -1,0 +1,34 @@
+.movieInfo-container{
+    width: 70vw;
+    margin: 0 auto;
+}
+.back{
+    margin: 2rem 0;
+    color: black;
+    cursor: pointer;
+    font-size: 1.5rem;
+    align-items: center;
+    &:hover{
+        color: indigo;
+    }
+}
+.info-container{
+    padding:5px;
+    box-shadow: 0 0 10px;
+    img{
+        border-radius: 2rem;
+        display: block;
+        margin-bottom: 0.5rem;
+    }
+}
+.infopart-container{
+    padding: 0.5rem 2rem;
+    text-align: center;
+    p{
+        font-size: 1.2rem;
+        strong{
+            color: rgb(10, 14, 61);
+            font-size: 2rem;
+        }
+    }
+}
